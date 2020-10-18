@@ -17,7 +17,7 @@ public class Movement : MonoBehaviour
     }
     void run()
     {
-        _rigidbody.velocity = Vector2.left * Input.GetAxis("Horizontal");
+        _rigidbody.velocity = -Vector2.left * Input.GetAxis("Horizontal");
     }
 }
  
